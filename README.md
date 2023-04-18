@@ -1,2 +1,12 @@
 # BUAACTF2023
+
 This repository includes all challenges and writeups in BUAACTF2022.
+
+enjoy it ~
+
+Game Status: Upcoming
+
+The handouts of chanllenges will be synchronized with the platform during the competition.
+
+The writeups will be uploaded at the end of the competition.
+
