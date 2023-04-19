@@ -1,0 +1,11 @@
+---
+name: Factor
+description: >
+  People always think that factoring is easy to crack RSA, but in fact, there are various methods for factoring, and you need to use a combination of them to solve this problem. This problem guarantees that it can be solved using appropriate methods within an acceptable time frame on a home laptop CPU.
+flag: ""
+author: 2045
+host: 123.57.4.116
+port: 23331
+tags:
+  - Crypto
+

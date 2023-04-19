@@ -1,0 +1,10 @@
+---
+name: pirate
+description: >
+  Playing the game well will reward you with a flag.
+flag: ""
+author: Eurus
+host: 10.212.26.206
+port: 23002
+tags:
+  - Pwn

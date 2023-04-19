@@ -1,0 +1,12 @@
+---
+name: ErrorMessage
+description: >
+  Can you find something in the error message?
+  flag格式：flag{*}
+flag: ""
+author: zeroc
+host: dynamic
+port: dynamic
+tags:
+  - Web
+  - Misc
