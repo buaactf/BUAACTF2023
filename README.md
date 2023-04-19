@@ -4,7 +4,7 @@ This repository includes all challenges and writeups in BUAACTF2023.
 
 enjoy it ~
 
-Game Status: Upcoming
+Game Status: Active
 
 The handouts of chanllenges will be synchronized with the platform during the competition.
 
