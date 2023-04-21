@@ -1,0 +1,10 @@
+---
+name: rtREV
+description: >
+  Just input 'help' if you don't know what to do.
+  flag is started with `BUAACTF{A`
+flag: ""
+author: s0uthwood
+tags:
+  - Reverse
+

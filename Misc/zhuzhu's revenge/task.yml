@@ -1,0 +1,10 @@
+---
+name: zhuzhu's revenge
+description: >
+  X2藏flag的时候不小心把中间数据给你们了，现在他带着完全版回来了！
+  题目链接：https://bhpan.buaa.edu.cn:443/link/A075C06A8D8C070093120AE742FACC96
+  注意：本题flag格式为buaactf{*}（小写）
+flag: ""
+author: avaritia
+tags:
+  - Misc

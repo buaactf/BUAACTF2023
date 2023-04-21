@@ -1,0 +1,30 @@
+# 赛题设计说明
+
+## 题目信息
+
+- 题目名称：VM4revenge
+- 预估难度：
+
+## 题目描述
+
+A strange virtual machine. Reverse it!
+
+获得flag后包上 `BUAACTF{}` 提交
+
+## 考点
+
+1. 考点
+
+## 出题思路与解题思路
+
+简述思路
+
+## 提示
+
+1. Hint 1
+2. Hint 2
+
+## 参考
+
+ref
+
