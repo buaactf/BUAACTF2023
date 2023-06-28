@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="  Your flag is your path. \n\n\n"
+        android:layout_above="@id/button_up"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="80sp"
+        android:layout_height="90sp"
+        android:layout_centerInParent="true"
+        android:text="f5" />
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="80sp"
+        android:layout_height="90sp"
+        android:layout_above="@id/button_center"
+        android:layout_centerHorizontal="true"
+        android:text="J" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="80sp"
+        android:layout_height="90sp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/left"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="80sp"
+        android:layout_height="90sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/right"
+        android:text="a"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="80sp"
+        android:layout_height="90sp"
+        android:layout_below="@id/button_center"
+        android:layout_centerHorizontal="true"
+        android:text="V" />
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="10sp"
+        android:layout_height="10sp"
+        android:text=" "
+        android:layout_toRightOf="@id/button_center"
+        />
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="10sp"
+        android:layout_height="10sp"
+        android:text=" "
+        android:layout_toLeftOf="@id/button_center"
+        />
+
+</RelativeLayout>
