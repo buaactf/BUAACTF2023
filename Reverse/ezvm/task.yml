@@ -1,0 +1,9 @@
+---
+name: ezvm
+description: >
+  对于学过计组的你一定是so easy啦！
+flag: "BUAACTF{1s_VM_beaut1fu1_for_REER?}"
+author: Ysiel
+tags:
+  - Reverse
+

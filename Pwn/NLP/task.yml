@@ -1,0 +1,11 @@
+---
+name: NLP
+description: >
+  Learning Pwntools is the first step to becoming a pwn dalao!
+flag: ""
+author: 2045
+host: 10.212.26.206
+port: 23004
+tags:
+  - Pwn
+

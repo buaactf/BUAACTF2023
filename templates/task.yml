@@ -1,0 +1,14 @@
+---
+name: Put the challenge name here
+description: >
+  Put the description of challene here
+  Along with hints or something else important
+flag: "BUAACTF{Remenber to fill this after the end of competition}"
+author: Your id here
+host: host here
+port: port here
+tags:
+  - web
+  - rev
+  - etc.
+

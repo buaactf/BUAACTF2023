@@ -1,0 +1,11 @@
+---
+name: easy-ssti
+description: >
+  非常只因础的SSTI，但不是flask。
+flag: ""
+author: hiddener
+host: dynamic
+port: dynamic
+tags:
+  - Web
+

@@ -1,0 +1,9 @@
+---
+name: Minesweep
+description: >
+  简单的扫雷小游戏，注意你的血量，怎么样才能活着过关呢？QAQ
+  获得flag后包上BUAACTF{}后提交
+flag: "BUAACTF{Remenber to fill this after the end of competition}"
+author: zcygh
+tags:
+  - Reverse

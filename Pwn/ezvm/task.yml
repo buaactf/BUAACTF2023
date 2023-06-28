@@ -1,0 +1,11 @@
+---
+name: ezvm
+description: >
+  Fake pwn, real rev.
+flag: "BUAACTF{Remenber to fill this after the end of competition}"
+author: Ysiel
+host: 10.212.26.206
+port: 23003
+tags:
+  - Pwn
+

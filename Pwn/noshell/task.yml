@@ -1,0 +1,11 @@
+---
+name: noshell
+description: >
+  What should we do if the overflow space is not enough?
+flag: "BUAACTF{Y0u_4r3_th3_m4st3r_0f_0rw_4nd_st4ck}"
+author: Eurus
+host: 10.212.26.206
+port: 23001
+tags:
+  - Pwn
+

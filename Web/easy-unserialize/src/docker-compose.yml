@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+    service:
+        image: example4
+        build: .
+        restart: always
+        ports:
+            - "30000:80"

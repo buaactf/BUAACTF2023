@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+    service:
+        image: hiddener/mota
+        build: .
+        restart: always
+        ports:
+            - "24268:3000"
