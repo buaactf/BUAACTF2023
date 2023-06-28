@@ -1,26 +1,27 @@
-# 赛题设计说明
+# easy_ssti
 
-## 题目信息
+| 出题人    | 题目类型 | 题目分值 |
+| :-------- | :------- | :------- |
+| hidden_er | Web      | 500      |
 
-- 题目名称：easy-ssti
-- 预估难度：
+## Description
 
-## 题目描述
+非常只因础的SSTI，但不是flask
 
-非常只因础的SSTI，但不是flask。
+flag在环境变量secret中。
 
-## 考点
+## flag
 
+`flag{RUSt_1S_S0_1NTere4T1NG}`
 
+## Hints
 
-## 出题思路与解题思路
+hint1： rust
 
+hint2：actix_web + Tera
 
+## Attachments
 
-## 提示
-
-
-
-## 参考
-
-
+| 附件名称 | 附件描述 |
+| :------- | :------- |
+|          |          |
