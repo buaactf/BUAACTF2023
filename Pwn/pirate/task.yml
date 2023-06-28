@@ -2,7 +2,7 @@
 name: pirate
 description: >
   Playing the game well will reward you with a flag.
-flag: ""
+flag: "BUAACTF{Y0u_4r3_th3_k1ng_0f_p1r4t3}"
 author: Eurus
 host: 10.212.26.206
 port: 23002
