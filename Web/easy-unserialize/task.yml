@@ -1,0 +1,11 @@
+---
+name: easy-unserialize
+description: >
+  经典的反序列化难题，但注释了一行代码，payload又会简单多少呢？
+flag: "BUAACTF{Remenber to fill this after the end of competition}"
+author: Your id here
+host: 10.212.26.206
+port: 30000
+tags:
+  - Web
+

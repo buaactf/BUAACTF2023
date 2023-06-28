@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TwoQuiz</string>
+    <string name="welcome_to_buuactf">Welcome to BUUACTF</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_the_first_half_of_the_password_to_start_the_game">Enter the first half of the password to start the game</string>
+    <string name="enter_the_first_half_of_the_flag_to_start_the_game">Enter the first half of the flag\n</string>
+    <string name="start">start</string>
+    <string name="right">→</string>
+    <string name="left">←</string>
+    <string name="down">↓</string>
+    <string name="up">↑</string>
+    <string name="the_first_half_of_the_flag">the_first_half_of_the_flag</string>
+    <string name="forget_to_design_the_ui_of_maze">Forget to design the UI of Maze</string>
+    <string name="key">f1rstQu1z-Sec0nd</string>
+    <string name="extra_data">extra_data</string>
+    <string name="xia">▼</string>
+    <string name="Oops">Oops! Blunder into a wall! You\'re back where you started!</string>
+    <string name="refreshed">You\'re back where you started!</string>
+    <string name="there_s_nothing_here">There\'s nothing here</string>
+</resources>
