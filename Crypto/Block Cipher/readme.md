@@ -1,26 +1,23 @@
-# 赛题设计说明
+# challenge name
+ASR
 
-## 题目信息
+| 出题人 | 题目类型 | 题目分值 |
+| :--- | :--- | :--- |
+| gfy |  Crypto    |   300   |
 
-- 题目名称：Block Cipher
-- 预估难度：
+## Description
+简单的分组加密
 
-## 题目描述
+## flag
+```
+BUAACTF{BloCk_cIphER_14_Soooooo_EaSY}
+```
 
-Recall the experiments done in class!
+## Hints
+None
 
-## 考点
-
-
-
-## 出题思路与解题思路
-
-
-
-## 提示
-
-
-
-## 参考
-
-
+## Attachments
+| 附件名称 | 附件描述 |
+| :--- | :--- |
+|   task.py   |   源码   |
+| output.txt | 输出结果 |

@@ -1,26 +1,22 @@
-# 赛题设计说明
+# challenge name
+ASR
 
-## 题目信息
+| 出题人 | 题目类型 | 题目分值 |
+| :--- | :--- | :--- |
+| zeroc |  Crypto    |   500   |
 
-- 题目名称：ASR
-- 预估难度：
+## Description
+给私钥的RSA。
 
-## 题目描述
+## flag
+```
+flag{1s_th15_RSA246988245684224655}
+```
 
-This RSA is so strange! What a lovely problem!
+## Hints
+None
 
-## 考点
-
-
-
-## 出题思路与解题思路
-
-
-
-## 提示
-
-
-## 参考
-
-
-
+## Attachments
+| 附件名称 | 附件描述 |
+| :--- | :--- |
+|   chall.py   |   none   |
