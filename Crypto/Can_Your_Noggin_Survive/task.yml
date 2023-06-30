@@ -1,0 +1,36 @@
+---
+name: Can_Your_Noggin_Survive
+description: >
+  
+    In a certain CTF competition, the solution records for some challenges have been lost. You need to recover the solution records; otherwise, 2045 will eat your head!
+
+  2045 is very benevolent and acts as a spell Oracle for you to use, but 2045 may not always give the correct answer – that's how capricious it is!
+
+  However, 2045 is full of love deep inside. Try using this magical spell, and perhaps you can escape the predicament!
+
+  The syntax rules for the spells are:
+
+  CX: Ask the X-th person if they solved the challenge, returning Yes/No.
+
+  CX love CY: A mysterious magical spell of unknown use.
+
+  Words that can be used in the spell:
+
+  1.{C0, C1, ..., CN} represents N+1 CTF players.
+
+  2."(" and ")".
+
+  3.The magical spell "love".
+
+  Note: Each word must be separated by a space, including "(" and ")".
+
+  There are several players at the competition site, and you can ask 2045 a limited number of questions.
+
+Can Your Noggin Survive？
+flag: "flag{2045_8r0ught_D0wn_39_h34ds_1n_th1s_cyb3r_g4m3}"
+author: 2045
+host: 10.212.27.23
+port: 23205
+tags:
+  - Crypto
+
