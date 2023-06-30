@@ -2,7 +2,7 @@
 name: ASR
 description: >
   This RSA is so strange! What a lovely problem!
-flag: "BUAACTF{Remenber to fill this after the end of competition}"
+flag: "BUAACTF{th1s_15_4n_really_ez_RSA_for_a1l_kind4_Of_attack_especially_for_known_e_and_d}"
 author: bangzhu
 tags:
   - Crypto
