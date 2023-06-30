@@ -1,0 +1,124 @@
+<div id="content">
+    <html>
+    <script language="javascript" src="/source/face.js"></script>
+    <script language="javascript" src="/plugin/layer/layer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="source/index_content.css"/>
+    <script language="javascript" src="/plugin/at/jquery.form.js"></script>
+    <script type="text/javascript" src="/source/index_content.js"></script>
+    <div id="mood_feed">
+        <form id="doingform">
+            <div class="mood_statement">
+                <div class="mood_say_something">
+                    <input type="hidden" id="complain" name="complain" value="0"/>
+                    <ul id="mood-switch" class="nav nav-mood pull-left">
+                        <li class="active status">
+                            <a href="#">发状态</a>
+                        </li>
+                        <li class="complain">
+                            <a href="#">提诉求</a>
+                        </li>
+                    </ul>
+                    <a style="color:black;position:absolute;top:13px;margin-left:-85px;left:50%;z-index:100"
+                       id="complain_help" data-container="body" data-trigger="hover"
+                       data-toggle="tooltip" data-placement="bottom"
+                       data-title="请点击【提诉求】按钮后再在输入框内【@公共主页】输入诉求内容点击【诉求】按钮进行提交，成功发布一条诉求删掉你的一个flag。诉求发布成功后，被@的bot主页需在一天之内做出对你的话，否则系统会自动发送短信通知该部门负责人处理诉求。【1天未回复上报至大bot，3天未回复上报至校赛群主，7天未回复上报至指导老师拷打。】"><span
+                            class="glyphicon glyphicon-question-sign"></span></a>
+                    <div class="mood_say_statement">还可输入 <strong id="maxlimit">140</strong> 个字
+                    </div>
+                </div>
+            </div>
+            <textarea class="mood_textarea" id="message" name="message"></textarea>
+            <div class="arrow-left">
+            </div>
+            <div class="demo">
+                <div class="btn drop_face" id="face_smell">
+                    <a href="javascript:;"><img src="/image/icons/statues_face_normal.png"
+                                                width="30" height="30"
+                                                align="absmiddle" title="插入表情"/>
+                    </a>
+
+                </div>
+                <div class="drop_face_menu" data-target="message"></div>
+                <div class="btn" id="face_pictor">
+                    <img src="/image/icons/statues_image_normal.png" width="30" height="30"
+                         align="absmiddle"/>
+                    <input id="fileupload" type="file" name="feedfile" title="插入图片">
+                </div>
+                <div id="at_friends_box">
+                    <div id="search_at_friends">
+                        <input id="input_friends_name" class="form-control input-sm" type="text"
+                               onfocus="if(this.value=='搜索要@的好友') this.value='';"
+                               onblur="if(this.value=='') this.value='搜索要@的好友';" value="搜索要@的好友"
+                               name="friend_name"/>
+                        <a href="javascript:" id="search_friends_submit"><img
+                                src="/image/icons/at-search-icon.png"
+                                id="search_friends_bt"/></a>
+                        <span id="close_at_box"><a href="javascript:void(0)">×</a></span>
+                    </div>
+                    <div id="friends_list_box"></div>
+                </div>
+                <div class="complain_pub" style="display:none;">
+                    <label>
+                        <input id="comp_pub" name="comp_pub" type="checkbox" checked="checked"
+                               value="yes"> 公开诉求
+                    </label>
+                </div>
+                <div class="pull-right">
+                    <a class="complain_tip" href="javascript:void(0);" style="display:none;"
+                       onclick="(function(){setTimeout(function(){var temp_com = jq('#message');temp_com.focus();temp_com.val(temp_com.val()+'@');temp_com[0].selectionStart = temp_com[0].selectionEnd = temp_com[0].value.length;temp_com.trigger('mouseup');},300);})();">请键入@，并选择诉求部门</a>
+                    <div class="mood_submit">
+                        <button type="submit" id="add" name="add">发布</button>
+                    </div>
+                </div>
+                <script src="/source/index_content_1.js">
+                    
+                </script>
+                <div class="progress">
+                    <span class="bar"></span><span class="percent">0%</span>
+                </div>
+                <div class="files"></div>
+                <div id="showimg"></div>
+            </div>
+
+            <input type="hidden" class="json_friend" id="json_friend" value="114514"/>
+            <input type="hidden" class="friendurl_r" id="friendurl_r"
+                   value="data/assets/data_114514.json"/>
+            <input type="hidden" name="addsubmit" value="true"/>
+            <input type="hidden" name="refer" value="/error"/>
+            <input type="hidden" name="topicid" value=""/>
+            <input type="hidden" name="datapicid" id="datapicid" value=""/>
+            <input type="hidden" name="datapicpath" id="datapicpath" value=""/>
+            <input type="hidden" name="formhash" value="f63bb6e1"/>
+        </form>
+    </div>
+
+
+    <script src="/source/index_content_2.js"></script>
+    <ul id="new_feed" class="nav nav-tabs nav-justified"
+        style="overflow: hidden;margin-top:18px;height:32px;">
+        <li id="ours" style="width:102px;text-align:center;" class="active">
+            <a href="#tab1">新鲜事</a>
+        </li>
+        <li id="public" style="width:102px;text-align:center;">
+            <a href="#tab2">公开新鲜事</a>
+        </li>
+        <li id="work" style="width:102px;text-align:center;">
+            <a href="#tab3">思政新鲜事</a>
+        </li>
+    </ul>
+    <span class="r_option" style="position: relative;top: -29px;">
+<a href="/error">精彩推荐</a>
+</span>
+    <div style="border-bottom:1px solid #dcdcdc;">
+        <div id="blue_solid"></div>
+    </div>
+    <div id="feed_div" class="enter-content">
+
+    </div>
+    <script src="/source/index_content_3.js"></script>
+    <div class="alert alert-info feed_more_btn"
+         style="width:550px;text-align:center;padding-top:20px;">
+        <a href="javascript:;" onclick="feed_more(this);"> 加载更多动态</a>
+    </div>
+    <div id="ajax_wait"></div>
+</div>

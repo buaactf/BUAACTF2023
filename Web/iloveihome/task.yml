@@ -1,0 +1,12 @@
+---
+name: iloveihome
+description: >
+  老版的平台下线了，爷的青春结束了，以此题致敬我们的青春。
+  bot的说明文档见附件。
+flag: "BUAACTF{U_t1r3d_I_T1R3D_but_t4ikul@}"
+author: SSGSS
+server_port: 21451
+bot_port: 29999
+tags:
+  - web
+

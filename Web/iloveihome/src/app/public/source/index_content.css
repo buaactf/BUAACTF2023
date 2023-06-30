@@ -1,0 +1,19 @@
+.tooltip-inner {
+    width: 300px;
+    max-width: 300px !important;
+    text-align: left;
+    padding: 6px 12px;
+}
+
+.center-box {
+    margin-left: 34px;
+    margin-top: 27px;
+    text-align: center;
+}
+
+#mood_feed_menu {
+    width: 200px;
+    top: 200px !important;
+    left: 50% !important;
+    margin-left: -10% !important;
+}

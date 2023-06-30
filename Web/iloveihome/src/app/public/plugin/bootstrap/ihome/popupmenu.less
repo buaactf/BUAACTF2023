@@ -1,0 +1,47 @@
+/* 消息弹出框 */
+@popup_border: 2px solid #dcdcdc;
+@popup_border_radius: 17px;
+@popup_shadow: 0px 0px 2px 0px #d6d6d6;
+@popup_title_font_size: 14px;
+
+.popupmenu() {
+	border: @popup_border;	
+	border-radius: @popup_border_radius;
+	box-shadow: @popup_shadow;
+	background: #fff;
+
+	h1 {
+		border-top-left-radius: @popup_border_radius;
+		border-top-right-radius: @popup_border_radius;
+		font-size: @popup_title_font_size; 
+    	padding: 6px 12px;
+    	margin: 0px;
+    	background:#f5f5f5;
+    	cursor: move;
+	}
+
+	.popupmenu_inner {
+		color: #666;
+		padding: 6px;
+	}
+}
+
+.popupmenu_popup { 
+    .popupmenu();
+}
+
+.popupmenu_centerbox {
+	.popupmenu();
+
+	.popupmenu_inner {
+		padding: 10px;
+	}
+
+	h1 {
+		background: #fff;
+		text-align: center;
+	}
+
+    min-width:250px;
+    max-width:550px;
+}

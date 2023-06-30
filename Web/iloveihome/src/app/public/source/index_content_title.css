@@ -1,0 +1,17 @@
+.introjs-helperNumberLayer {
+    width: 30px;
+    height: 30px;
+}
+.introjs-disabled {
+    color: #C2BEBE;
+}
+.introjs-prevbutton {
+    border-radius: 15.2em 0 0 .2em;
+}
+.introjs-nextbutton {
+    border-radius: 0 .2em 15.2em 0;
+}
+.introjs-skipbutton {
+    border-radius: 15.2em .2em 15.2em 0.2em;
+    margin-right: 15px;
+}

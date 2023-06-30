@@ -1,0 +1,62 @@
+<script type="text/javascript" src="/plugin/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="/plugin/moment/locale/zh-cn.js"></script>
+<script type="text/javascript"
+        src="/plugin/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<link rel="stylesheet"
+href="/plugin/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css"/>
+<script src="source/appeal_content.js"></script>
+<style>
+    .datetimepicker {
+        margin-left: 6px;
+        padding: 3px 6px;
+        border: 1px solid #cccccc;
+        background: white;
+        cursor: pointer;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    #cloud_dep {
+        margin-left: 6px;
+    }
+
+    span.complain_clear {
+        color: #52E5B6;
+    }
+</style>
+<h4 class="title" style="margin-left:15px;margin-top:30px;"><img class="pic10" src="/image/icons/icon_appeal.png">诉求
+</h4>
+<div style="margin-left:510px;margin-top:-30px;border:1px;background-color:#F5F5F5;width:260px;padding:0cm 0cm 0cm 0.1cm;">
+    <span style="color:#DC143C">温馨提示：</span>各方向管理员，请您在回复选手诉求时，如果遇到本方向解决不了的问题，需要其他方向协调解决的诉求，请在回复中使用@功能，将诉求直接转发至相关方向。谢谢您的配合。
+</div>
+<div class="tabs_header" style="margin-bottom:5px;">
+    <ul class="tabs">
+        <li class="active" style="width:105px;"><a
+                href="/appeal"><span>我的诉求</span></a></li>
+        <li style="width:110px;"><a href="/error"><span>所有人的诉求</span></a>
+        </li>
+        <li style="width:110px;"><a
+                href="/error"><span>部门排行</span></a></li>
+        <li style="width:110px;"><a
+                href="/error"><span>诉求云</span></a></li>
+    </ul>
+</div>
+<div id="content" style="border-right: none;width:100%;padding-right:40px;">
+    <div id="complain_list">
+        <div class="h_status" style="margin-left:13px;border-bottom:none;margin-bottom:5px">
+            <a class="active" href="/appeal">全部诉求</a>
+            <a href="/appeal">处理中</a>
+            <a href="/appeal">已处理</a>
+            <a href="/appeal">已关闭</a>
+        </div>
+
+        <div class="complain_list_container">
+            <!-- <p class="no-content-tip">
+                <img src="/image/icons/no_status.png">
+                <br>
+                现在还没有诉求
+            </p> -->
+        </div>
+        
+    </div>
+</div>

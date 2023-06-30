@@ -1,0 +1,267 @@
+<style>
+    #diy {
+        display: none;
+    }
+    .feed_li_inner {
+        width: 620px !important;
+    }
+    .sub_doing {
+        width: 471px;
+        margin-left: 81px;
+    }
+    .sub_doing .form-control {
+        width: 81% !important;
+    }
+    #mainarea {
+        padding: 0;
+        height: auto;
+        width: 970px;
+        border-radius: 0px;
+        margin-left: 0px;
+        background-color: #FFFFFF;
+    }
+    #content {
+        padding-bottom: 95px;
+        min-height: 1110px;
+        float: left;
+        margin-left: -655px;
+        margin-top: 0px;
+        width: 759px;
+        padding: 0px 20px;
+        border-right: 1px solid #ccc;
+        position: relative;
+    }
+
+    .tooltip-inner {
+        width: initial !important;
+        height: initial !important;
+    }
+
+    .tooltip-arrow {
+        width: initial !important;
+        height: initial !important;
+    }
+
+    .tooltip {
+        width: initial !important;
+        height: initial !important;
+    }
+
+    #a_friend_li {
+        padding: 2px;
+        border-radius: 0px;
+        margin-left: 4px;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/template/default/personality.css">
+
+<div id="space_page">
+    <style>
+        .profile-header {
+            background: url("");
+            background-position: center;
+            background-size: cover;
+            background-position-y: 0;
+        }
+    </style>
+
+    <div class="profile-header">
+        <a href="/error">
+            <div id="change_theme">
+            </div>
+            <div id="change_theme_text">
+                更换主题
+            </div>
+        </a>
+    </div>
+
+    <div class="profile-extra-wrapper">
+        <div class="profile-extra">
+            <div class="signature">
+                <p></p>
+            </div>
+
+            <div class="operation-self">
+                <p class="operation-box-self">
+                    <a href="/error">
+                        <i class="icon-cog"></i>
+                    </a>
+                </p>
+            </div>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="ubar">
+        <div class="profile-board">
+            <div class="profile-avatar">
+                <img src="/image/cxk.jpg">
+            </div>
+            <div class="gap-line"></div>
+            <div class="profile-statistic">
+                <div id="view-count">
+                    <p></p>
+                    <p>访问</p>
+                </div>
+                <div class="gap-vertical-line"></div>
+                <div id="credit">
+                    <p></p>
+                    <p>积分</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-sex-birth">
+            <p>
+            </p>
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <p style="font-size: 18px;">
+        </p>
+        <ul class='infolist'>
+            <li>组别：新星组/高年级组</a></li>
+            <li>院系：网络空间安全</li>
+            <li>班级：1919810</li>
+            <li>
+
+            </li>
+            <div class="profile-edit">
+                <p>
+                    <a href="/error" target="_blank">
+                        <span class="edit_profile"></span>编辑个人资料
+                    </a>
+                </p>
+            </div>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+
+
+    <div id="mainarea" class="clearfix" style="">
+        <div id="content" class="clearfix">
+            <div id="maincontent" style="margin-bottom: 10px;">
+
+                <ul class="tabs">
+                    <li class='active'><a href="#space_feed" id="space_feed_tab">动态</a></li>
+                    <li><a href="#space_info">个人资料</a></li>
+                    <li><a href="#space_photo">相册</a></li>
+                    <li class="comment">
+                        <a href="javascript:;" onclick="return false;">留言</a>
+                        <ul class="comment-menu">
+                            <li style="border-top-left-radius: inherit;border-top-right-radius: inherit"
+                                class="comment-to-who">
+                                <a href="#comment" id="tab_content_doing_tab">别人给我的</a>
+                            </li>
+                            <a href="#mycomment">我给别人的</a>
+                        </ul>
+                    </li>
+                    <li class="more">
+                        <a href="#">更多</a>
+                        <ul class="more-menu">
+                            <li style="border-top-left-radius: inherit;border-top-right-radius: inherit">
+                                <a href="#tab_content_doing" id="tab_content_doing_tab">足迹</a>
+                            </li>
+                            <li><a href="#space_blog">日志</a></li>
+                            <li><a href="#tab_content_thread">话题</a></li>
+                            <li><a href="#tab_content_poll">投票</a></li>
+                            <li><a href="#tab_content_event">活动</a></li>
+
+
+                            <li style="border-bottom-left-radius: inherit;border-bottom-right-radius: inherit">
+                                <a href="#tab_content_share">分享</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <div id="space_info" style="display: none">
+                    <table class="infotable">
+                        <tr><td colspan="2">&nbsp;</td></tr>
+                        <tr><td class="td_title" colspan="2">身份</td></tr>
+                    </table>
+                </div>
+
+
+                <div id="space_photo" style="display: none">
+
+                    <p class="no-content-tip">
+                        <img src="/image/icons/no_status.png">
+                        <br>
+                        暂无相册
+                    </p>
+                </div>
+
+                <div id="space_feed" class="feed">
+                    <p class="no-content-tip">
+                        <img src="/image/icons/no_status.png">
+                        <br>
+                        暂无动态
+                    </p>
+                </div>
+
+                <div id="tab_content_doing" style="display: none"></div>
+                <div id="tab_content_thread" style="display: none"></div>
+                <div id="tab_content_poll" style="display: none"></div>
+                <div id="tab_content_event" style="display: none">
+                </div>
+                <div id="tab_content_share" style="display: none"></div>
+                <div id="tab_content_aud" style="display: none"></div>
+
+                <div id="space_blog" class="feed" style="display: none">
+                    <div class="space_section_header">
+                        <a href="/error">
+                            <span class="space-icon-publish-blog"></span>
+                            添加新日志
+                        </a>
+                        <span class="count">
+（ 共0篇 ）
+</span>
+                    </div>
+
+                    <p class="no-content-tip">
+                        <img src="/image/icons/no_status.png">
+                        <br>
+                        暂无日志
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div id="mycomment" class="comments_list" style="display: none">
+                <style type="text/css">
+                    #comment_ul li {
+                        margin-top: 10px;
+                    }
+                </style>
+                <div class="box_content" >
+                    <ul class="post_list a_list justify_list" id="comment_ul">
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="obar">
+            <div id="recpub" class="sidebox border-bottom-none"
+                 style="border-top:1px solid #dcdcdc; padding:10px 0;">
+                <h4 class="title">标签</h4>
+                <div class="tagslist" id="tagslistid">
+                    <ul class="ntags">
+                        <li><span><a onclick="ajaxmenu(event, this.id)" id="add_tag"
+                                     href="/error">+添加新标签</a></span>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,61 @@
+<body style="padding-top:55px;">
+    <div id="append_parent"></div>
+    <div id="ajaxwaitid"></div>
+    <div id="client">
+        <div id="close_client">关闭</div>
+        <div class="img">
+            <img class="client_s" src="/image/client_s.jpg" alt="">
+            <img class="client_l" src="/image/640.jpg" alt="" style="display:none">
+        </div>
+    </div>
+    <div id="feedback"><a href="/"><img src="/image/feedback.png"/></a></div>
+    <div id="back" style="display:none;" title="回到顶部"></div>
+    <div class="navbar-fixed-top navbar-ihome" style="z-index:9999">
+        <div class="container">
+            <div class="nav-header">
+                <a class="navbar-brand" href="/"
+                   style="display: block; height: 35px; width: 155px; padding: 10px;">
+                    <img src="/template/default/image/logo_navigation.png"/>
+                </a>
+            </div>
+            <ul class="nav navbar-nav pull-left hidden-xs">
+                <li id="index"><a href="/">首页</a></li>
+                <li id="home"><a href="/self">个人主页</a></li>
+                <li id="friend"><a href="/share">好友分享</a></li>
+                <li id="app"><a href="http://10.212.25.14/">服务大厅</a></li>
+            </ul>
+            <ul class="nav navbar-nav hidden-xs info pull-right" style="width:325px;">
+                <li class="hidden-xs hidden-sm" style="padding:13px;padding-left:0;padding-right:0;width:140px">
+                    <form method="get" id="head_search" action="/error">
+                        <input id="search_input" class="search form-control input-sm"
+                               name="query" value="找人、搜内容" type="text" onblur="if(this.value=='') {this.value='找人、搜内容';}"
+                               onclick="if(this.value=='找人、搜内容'){this.value='';}"
+                               style="border-radius:20px;" frame="void"/>
+                        <a tabindex="4" onclick="searchSubmit()" title="搜索按钮" href="javascript:void(0)"
+                           style="outline:none;right:10px;" id="searchsubmit_a"><span class="icon-search"></span></a>
+                        <input type="hidden" name="do" value="search"/>
+                    </form>
+                </li>
+    
+                <li class="pull-right">
+                    <a href="/error"
+                       style="padding-right: 10px;padding-left: 10px;">
+                        <i class="icon-signout" style="vertical-align: middle; font-size: 20px;"></i></a>
+                </li>
+                <li class="pull-right">
+                    <a href="/error" style="padding-right: 10px;padding-left: 10px;"><i class="icon-cog"
+                                                                                        style="vertical-align: middle; font-size: 20px;"></i></a>
+                </li>
+                <li class="pull-right li_notice">
+                    <a href="/error"><img src="/image/icons/icon-soundnotice.png"></a>
+                    <span class="news_badge" id="notebadge" style="display:none;"></span>
+                </li>
+                <li class="pull-right li_notice" style="padding-left:0">
+                    <a href="/error"><img src="/image/icons/icon-message.png"></img></a>
+                    <span class="news_badge" id="pmbadge" style="display:none;"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="/source/title.js"></script>
+    </div>

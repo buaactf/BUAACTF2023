@@ -1,0 +1,78 @@
+/* 消息弹出框 */
+.popupmenu_popup {
+  border: 2px solid #dcdcdc;
+  border-radius: 17px;
+  box-shadow: 0px 0px 2px 0px #d6d6d6;
+  background: #fff;
+}
+.popupmenu_popup h1 {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0px;
+  background: #f5f5f5;
+}
+.popupmenu_popup .popupmenu_inner {
+  color: #666;
+  padding: 6px;
+}
+.popupmenu_centerbox {
+  border: 2px solid #dcdcdc;
+  border-radius: 17px;
+  box-shadow: 0px 0px 2px 0px #d6d6d6;
+  background: #fff;
+  min-width: 250px;
+  max-width: 550px;
+}
+.popupmenu_centerbox h1 {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0px;
+  background: #f5f5f5;
+}
+.popupmenu_centerbox .popupmenu_inner {
+  color: #666;
+  padding: 6px;
+}
+.popupmenu_centerbox .popupmenu_inner {
+  padding: 10px;
+}
+.popupmenu_centerbox h1 {
+  background: #fff;
+  text-align: center;
+}
+
+.popupmenu_popup form > p,
+.popupmenu_popup form > table {
+  margin: 0px 0px 10px;
+}
+
+.popupmenu_popup .btn_line {
+  margin-bottom: 0px;
+}
+
+.popupmenu-report-inner form {
+  padding: 0px;
+}
+
+.popupmenu-report-inner form table {
+  margin: 0px 0px 10px;
+}
+
+.popupmenu_centerbox .float_del {
+  float: none;
+  position: absolute;
+  top: 6px;
+  right: 7px;
+  margin: 0px;
+}
+
+.popupmenu_inner.popupmenu-report-inner form table label {
+  padding-left: 5px;
+}
+.popupmenu_inner.popupmenu-report-inner p {
+  margin: 0px 0px 10px;
+}

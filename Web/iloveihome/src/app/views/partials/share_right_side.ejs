@@ -1,0 +1,52 @@
+<div id="sidebar" style="padding-left:10px;">
+    <form id="shareform" name="shareform" action="/error" method="post">
+        <table cellspacing="2" cellpadding="2" width="100%">
+            <tr>
+                <td><strong>分享网址、视频、音乐、Flash</strong></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="t_input form-control input-sm" name="link"
+                           onfocus="javascript:if('http://'==this.value)this.value='';"
+                           onblur="javascript:if(''==this.value)this.value='http://'"
+                           id="share_link" style="width:98%;" value="http://"/></td>
+            </tr>
+            <tr>
+                <td><strong>描述:</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea id="share_general" name="general"
+                              style="width:98%;padding:3px 4px;" rows="3"
+                              class="form-control input-sm"
+                              onkeydown="ctrlEnter(event, 'sharesubmit_btn')"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" name="refer"
+                           value="/share"/>
+                    <input type="hidden" name="sharesubmit" value="true"/>
+                    <input type="button" id="sharesubmit_btn" name="sharesubmit_btn" value="分享"
+                           class="submit btn btn-sm btn-comments"
+                           onclick="ajaxpost('shareform', 'share_add')"/>
+                </td>
+            </tr>
+            <tr>
+                <td id="__shareform"></td>
+            </tr>
+        </table>
+        <input type="hidden" name="formhash" value="f63bb6e1"/></form>
+    <div class="sidebox" style="border-bottom:none;padding-left:5px;" id="help">
+        <h4 class="title" style="font-size:16px">如何分享网页？</h4>
+        <p style="color:#777">直接填写网址。</p>
+        <h4 class="title" style="font-size:16px">如何分享视频？</h4>
+        <p style="color:#777;width:195px;">填写视频所在网页的网址。(不需要填写视频的真实地址)</p>
+        <p style="color:#777; width:195px">我们支持的视频网站有：<br>好像确实不支持
+        </p>
+        <h4 class="title" style="font-size:16px">如何分享音乐？</h4>
+        <p style="color:#777;width:195px">填写音乐文件的网址。(后缀需要是mp3或者wma)</p>
+        <h4 class="title" style="font-size:16px">如何分享 Flash？</h4>
+        <p style="color:#777;width:195px">填写 Flash 文件的网址。(后缀需要是swf)</p>
+    </div>
+
+</div>
