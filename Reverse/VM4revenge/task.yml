@@ -3,7 +3,7 @@ name: VM4revenge
 description: >
   A strange virtual machine. Reverse it!
   获得flag后包上BUAACTF{}提交
-flag: ""
+flag: "BUAACTF{sl!c3_vm_rea11y_H00ks_me}"
 author: Ysiel
 tags:
   - Reverse
