@@ -1,0 +1,8 @@
+---
+name: crazymaze
+description: >
+  灵感源自7th XCTF Final
+flag: "BUAACTF{C0nfu5ing_RoVV5_4nd_C01umns_1n_m@Z3q4Me}"
+author: SSGSS
+tags:
+  - Misc
