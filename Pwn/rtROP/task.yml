@@ -1,0 +1,12 @@
+---
+name: rtROP
+description: >
+  There is a backdoor in this system, can you find it and exec it?
+  Embryo ROP, if you have already solved rtREV.
+  flag is started with `BUAACTF{9`
+flag: "BUAACTF{9d88be72-5577-cbe6-8583-c696947baa6a}"
+author: s0uthwood
+tags:
+  - Pwn
+  - Reverse
+
