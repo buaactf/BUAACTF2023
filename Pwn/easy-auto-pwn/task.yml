@@ -1,0 +1,9 @@
+---
+name: easy-auto-pwn
+description: >
+flag: ""
+author: triplewings
+host: 
+port:
+tags:
+  - Pwn
